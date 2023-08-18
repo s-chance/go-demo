@@ -7,6 +7,7 @@ import (
 	"net/http"
 )
 
+// go+mysql图书管理系统
 func main() {
 	r := mux.NewRouter()
 	route.RegisterBookStoreRoutes(r)

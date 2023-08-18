@@ -78,6 +78,7 @@ func deleteMovie(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(movies)
 }
 
+// 构建一个CURD API
 func main() {
 	r := mux.NewRouter()
 
